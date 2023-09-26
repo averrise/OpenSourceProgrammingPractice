@@ -1,2 +1,0 @@
-# OpenSourceProgrammingPractice
-practice github
