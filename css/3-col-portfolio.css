@@ -117,13 +117,6 @@ img:hover {
   font-size: 17px;
   opacity: 0.5;
 }
-.major {
-  font-size: 65px;
-  font-weight: 700;
-  margin-top:25px;
-  margin-bottom:25px;
-  font-family: 'Oswald', sans-serif;
-}
 .whatilove-text {
   font-size: 55px;
   font-weight: 700;
@@ -141,4 +134,25 @@ img:hover {
 .interests .comment {
   font-size: 16px;
   font-style: italic;
+}
+
+const clicks = document.querySelectorAll(".click")
+const sections = document.querySelectorAll("section")
+const firstTop = sections[0].offsetTop
+const secondTop = sections[1].offsetTop
+const thirdTop = sections[2].offsetTop
+const fourthTop = sections[3].offsetTop
+
+
+clicks[0].onclick = function() {
+  window.scroll({top: firstTop, behavior: 'smooth'})
+}
+clicks[1].onclick = function() {
+  window.scroll({top: secondTop, behavior: 'smooth'})
+}
+clicks[2].onclick = function() {
+  window.scroll({top: thirdTop, behavior: 'smooth'})
+}
+clicks[3].onclick = function() {
+  window.scroll({top: fourthTop, behavior: 'smooth'})
 }
