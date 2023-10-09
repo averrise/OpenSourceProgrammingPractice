@@ -18,7 +18,7 @@ border-radius: 70%
   position: fixed;
   border: 0;
   background-color: #2B3856;
-  display: block;
+  display: flex;
   width: 200px;
   height: 100vh;
   align-items: center;
