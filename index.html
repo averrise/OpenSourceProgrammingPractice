@@ -14,86 +14,23 @@
     <!-- Custom CSS for the '3 Col Portfolio' Template -->
     <link href="css/3-col-portfolio.css" rel="stylesheet">
   </head>
-
-  <body>
-
-    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://startbootstrap.com">제가 요새 관심있는 3가지 기술에 대해서 소개해드리겠습니다.</a>
+<body>
+    <header>
+    </header>
+      <nav class="menu-bar">
+        <div class = "index">
+          <!-- 프로필 이미지 -->
+          <div class = "img">
+            <img id="porfile-img" src ="data:image/jpeg;base64,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">
+          </div>
+          <br>
+          <!-- 목차 내용 -->
+          <h3 class="click">ABOUT</h3>
+          <h3 class="click">EXPERIENCE</h3>
+          <h3 class="click">EDUCATION</h3>
+          <h3 class="click">INTERESTS</h3>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#about">Docker</a></li>
-            <li><a href="#services">GitHub</a></li>
-            <li><a href="#contact">DS/ML</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
-
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-lg-12">
-          <h1 class="page-header">3 Col Portfolio <small>Showcase Your Study</small></h1>
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-md-4 portfolio-item">
-          <a href="#project-link"><img class="img-responsive" src="data:image/png;base64,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"></a>
-          <h3><a href="#project-link">Docker</a></h3>
-          <p>실행환경의 통일 그리고 배포를 위한 쿠버네티스를 배우기 위해 도커를 배웁니다</p>
-        </div>
-
-        <div class="col-md-4 portfolio-item">
-          <a href="#project-link"><img class="img-responsive" src="https://www.javedali.net/post/intro-git-github/featured.jpg"></a>
-          <h3><a href="#project-link">Github</a></h3>
-          <p>팀원들과의 코드의 상호작용을 위해서 깃허브를 배웁니다</p>
-        </div>
-
-        <div class="col-md-4 portfolio-item">
-          <a href="#project-link"><img class="img-responsive" src="https://miro.medium.com/v2/resize:fit:1400/1*23F1IbQrCfQZCp9OPU6iMw.jpeg"></a>
-          <h3><a href="#project-link">DS/ML</a></h3>
-          <p>데이터에서 특정한 정보를 뽑아 제품을 계획하기 위해서 DS/ML을 배웁니다</p>
-        </div>
-
-      </div>
-
-      <hr>
-
-      <div class="row text-center">
-        
-        <div class="col-lg-12">
-          <ul class="pagination">
-            <li><a href="#">&laquo;</a></li>
-            <li class="active"><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li><a href="#">&raquo;</a></li>
-          </ul>        
-        </div>
-
-      </div>
-
-    </div><!-- /.container -->
-
-    <div class="container">
-
-      <hr>
-
+      </nav>
       <footer>
         <div class="row">
           <div class="col-lg-12">
