@@ -24,6 +24,7 @@ border-radius: 70%
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1000; /* Ensure it's on top */
 }
 
 .index {
