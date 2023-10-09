@@ -18,9 +18,10 @@ border-radius: 70%
   position: fixed;
   border: 0;
   background-color: #2B3856;
-  display: flex;
+  display: block;
   width: 200px;
   height: 100vh;
+  display: flex;
   align-items: center;
   justify-content: center;
   z-index: 1000; /* Ensure it's on top */
